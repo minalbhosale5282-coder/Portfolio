@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minal Sachin Patil | Aspiring Data Analyst & Developer</title>
+  <meta name="description" content="Portfolio of Minal Sachin Patil — B.Tech 2nd year student, Aspiring Data Analyst, and Developer skilled in Python, SQL, Data Science, and modern Web Technologies. Available for internships.">
+  <meta name="keywords" content="Minal Sachin Patil, Data Analyst, Data Science, Python, SQL, DBMS, Web Development, Portfolio">
+  <meta name="author" content="Minal Sachin Patil">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%237c3aed'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='52' fill='white'>M</text></svg>">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#top" class="brand-logo" aria-label="Minal Sachin Patil home">
+        <span class="logo-avatar">MP</span>
+        <div class="brand-text">
+          <span class="brand-name">Minal S. Patil</span>
+          <span class="brand-role">Data Analyst</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-links" id="nav-menu" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle-btn" id="theme-toggle" type="button" aria-label="Toggle light and dark theme" title="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm cta-nav-btn">Get In Touch</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-badge">
+          <span class="status-dot"></span>
+          <span>Available for Data Analyst & Developer Internships</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Minal Sachin Patil</span>.<br>
+          Turning Data into Decisions & Building Web Solutions.
+        </h1>
+
+        <p class="hero-description">
+          <strong>B.Tech 2nd Year Student</strong> & former <strong>Data Science Intern</strong> at Softcrowd Technologies. 
+          Specializing in <strong>SQL</strong>, <strong>Python</strong>, <strong>DBMS</strong>, exploratory data analysis, 
+          and full-stack web applications with React & modern JavaScript.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Featured Projects</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" title="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span>GitHub Profile</span>
+          </a>
+        </div>
+
+        <!-- Highlight Metric Cards -->
+        <div class="metric-cards-grid">
+          <div class="metric-card">
+            <div class="metric-icon">🎓</div>
+            <div class="metric-data">
+              <span class="metric-value">B.Tech</span>
+              <span class="metric-label">2nd Year Engineering Student</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon">💼</div>
+            <div class="metric-data">
+              <span class="metric-value">Internship</span>
+              <span class="metric-label">Data Science @ Softcrowd</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon">📊</div>
+            <div class="metric-data">
+              <span class="metric-value">SQL & Python</span>
+              <span class="metric-label">EDA, Modeling & DBMS</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-icon">⚡</div>
+            <div class="metric-data">
+              <span class="metric-value">Full Stack</span>
+              <span class="metric-label">React, Next.js & Node.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Profile Overview</p>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="lead-text">
+              I am a passionate <strong>B.Tech student (Second Year)</strong> with a strong focus on becoming a versatile 
+              <strong>Data Analyst</strong>. I combine analytical problem-solving with hands-on software development experience.
+            </p>
+            <p>
+              My hands-on journey includes completing an intensive <strong>Data Science Internship at Softcrowd Technologies, Nashik</strong>, 
+              where I worked on raw data extraction, exploratory data analysis, data cleaning, and actionable visualization workflows.
+            </p>
+            <p>
+              Beyond data analytics with <strong>SQL, Python, and Database Management Systems (DBMS)</strong>, I am proficient in modern 
+              web development technologies including <strong>HTML, CSS, JavaScript, TypeScript, React, Next.js, and Node.js</strong>. 
+              This allows me to not only extract statistical insights from datasets, but also engineer intuitive, dynamic web dashboards 
+              and data-driven applications.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span>Strong foundation in Relational Database Management Systems (RDBMS & SQL)</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span>Proficient in exploratory data analysis (EDA) using Python libraries</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span>Full-stack capable: Building frontends in React & backend logic with Python / Node.js</span>
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span>
+                <span>Active problem solver, eager learner, and ready to contribute to immediate internship roles</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="info-card">
+              <h3 class="info-card-title">Quick Information</h3>
+              <ul class="info-list">
+                <li>
+                  <span class="info-key">Name:</span>
+                  <span class="info-val">Minal Sachin Patil</span>
+                </li>
+                <li>
+                  <span class="info-key">Education:</span>
+                  <span class="info-val">B.Tech (2nd Year)</span>
+                </li>
+                <li>
+                  <span class="info-key">Role Focus:</span>
+                  <span class="info-val badge-val">Data Analyst / Data Science</span>
+                </li>
+                <li>
+                  <span class="info-key">Location:</span>
+                  <span class="info-val">Nashik, Maharashtra, India</span>
+                </li>
+                <li>
+                  <span class="info-key">Availability:</span>
+                  <span class="info-val status-val">Open for Internships</span>
+                </li>
+                <li>
+                  <span class="info-key">Email:</span>
+                  <a href="mailto:minalbhosale23@gmail.com" class="info-val link-val">minalbhosale23@gmail.com</a>
+                </li>
+                <li>
+                  <span class="info-key">Contact:</span>
+                  <a href="tel:9876654312" class="info-val link-val">+91 98766 54312</a>
+                </li>
+                <li>
+                  <span class="info-key">GitHub:</span>
+                  <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" class="info-val link-val">@minalbhosale5282-coder</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="section alt-bg" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Career Milestones</p>
+          <h2 class="section-title">Experience & Education</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge">Work Experience</span>
+                  <h3 class="timeline-role">Data Science Intern</h3>
+                  <h4 class="timeline-company">Softcrowd Technologies • Nashik, Maharashtra</h4>
+                </div>
+                <span class="timeline-date">Internship Completed</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Engaged in practical data science and analytics tasks, contributing to data preprocessing, exploratory data analysis, 
+                  and analytical reporting.
+                </p>
+                <ul class="timeline-tasks">
+                  <li>Performed comprehensive Exploratory Data Analysis (EDA) on structured datasets using Python, Pandas, and NumPy.</li>
+                  <li>Created informative data visualizations and charts using Matplotlib and Seaborn to communicate trends to project mentors.</li>
+                  <li>Assisted in cleaning noisy data, handling missing values, and preparing structured tables for database analysis.</li>
+                  <li>Gained practical exposure to real-world software workflows, data pipelines, and team collaboration.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">Data Science</span>
+                  <span class="tag">Pandas</span>
+                  <span class="tag">NumPy</span>
+                  <span class="tag">Matplotlib</span>
+                  <span class="tag">SQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Item -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge">Education</span>
+                  <h3 class="timeline-role">Bachelor of Technology (B.Tech)</h3>
+                  <h4 class="timeline-company">Engineering Curriculum • Second Year Student</h4>
+                </div>
+                <span class="timeline-date">Current / In Progress</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Pursuing rigorous engineering coursework with a strong foundation in computational mathematics, database architectures, 
+                  and computer programming fundamentals.
+                </p>
+                <ul class="timeline-tasks">
+                  <li><strong>Core Subjects:</strong> Database Management Systems (DBMS), Data Structures & Algorithms, Object-Oriented Programming (Python/C++), Discrete Mathematics, Computer Networks.</li>
+                  <li>Consistently working on practical coding projects, analytical lab assignments, and data structure implementations.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tag">DBMS</span>
+                  <span class="tag">Data Structures</span>
+                  <span class="tag">SQL</span>
+                  <span class="tag">Algorithms</span>
+                  <span class="tag">Computer Science</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Technical Competencies</p>
+          <h2 class="section-title">Skills & Expertise</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">A balanced toolkit spanning data analysis, database management, and modern full-stack web engineering.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Data Analytics & Science -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">📊</div>
+              <div>
+                <h3>Data Analysis & Science</h3>
+                <p>Core specialty & career focus</p>
+              </div>
+            </div>
+            <div class="skill-pills">
+              <div class="skill-pill">
+                <span class="pill-name">Python for Data</span>
+                <span class="pill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">SQL Queries</span>
+                <span class="pill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">DBMS Architecture</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Pandas & NumPy</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Matplotlib & Seaborn</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Exploratory Data Analysis (EDA)</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Data Cleaning & Wrangling</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Statistical Insights</span>
+                <span class="pill-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">💻</div>
+              <div>
+                <h3>Frontend & Web Technologies</h3>
+                <p>Interactive interfaces & responsive design</p>
+              </div>
+            </div>
+            <div class="skill-pills">
+              <div class="skill-pill">
+                <span class="pill-name">HTML5</span>
+                <span class="pill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">CSS3 & Flexbox/Grid</span>
+                <span class="pill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">JavaScript (ES6+)</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">TypeScript</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">React.js</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Next.js</span>
+                <span class="pill-level">Intermediate</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Responsive Design</span>
+                <span class="pill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">UI Interactivity</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Backend & Tools -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">⚙️</div>
+              <div>
+                <h3>Backend, Databases & Tools</h3>
+                <p>Systems, storage & developer tools</p>
+              </div>
+            </div>
+            <div class="skill-pills">
+              <div class="skill-pill">
+                <span class="pill-name">Node.js</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Relational Databases (RDBMS)</span>
+                <span class="pill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">MySQL / PostgreSQL</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Git & GitHub</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">VS Code</span>
+                <span class="pill-level">Advanced</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">REST APIs</span>
+                <span class="pill-level">Intermediate</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Jupyter Notebooks</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-name">Problem Solving</span>
+                <span class="pill-level">Dedicated</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Skills Radar / Live Metrics Bar -->
+        <div class="skills-interactive-box">
+          <div class="interactive-box-header">
+            <h4>Live Proficiency Distribution</h4>
+            <span class="pill-badge">Interactive Metric Breakdown</span>
+          </div>
+          <div class="meter-group">
+            <div class="meter-item">
+              <div class="meter-info">
+                <span>SQL & Database Management (DBMS)</span>
+                <span>88%</span>
+              </div>
+              <div class="meter-bar"><div class="meter-fill" style="width: 88%;"></div></div>
+            </div>
+            <div class="meter-item">
+              <div class="meter-info">
+                <span>Python & Data Analysis (Pandas/EDA)</span>
+                <span>85%</span>
+              </div>
+              <div class="meter-bar"><div class="meter-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="meter-item">
+              <div class="meter-info">
+                <span>HTML, CSS & JavaScript Fundamentals</span>
+                <span>90%</span>
+              </div>
+              <div class="meter-bar"><div class="meter-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="meter-item">
+              <div class="meter-info">
+                <span>React, Next.js & Modern Frontend</span>
+                <span>80%</span>
+              </div>
+              <div class="meter-bar"><div class="meter-fill" style="width: 80%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section alt-bg" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Portfolio Showcase</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Real-world data science investigations and functional software applications.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="project-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (4)</button>
+          <button class="filter-btn" data-filter="data">Data Science & Analytics (2)</button>
+          <button class="filter-btn" data-filter="web">Web & Python Apps (2)</button>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid" id="projects-grid">
+          
+          <!-- Project 1: Zomato Analysis -->
+          <article class="project-card" data-category="data">
+            <div class="project-card-banner banner-data">
+              <div class="banner-badge">Data Science Project</div>
+              <div class="project-icon-overlay">📈</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category">Data Science • EDA</span>
+                <span class="project-year">Python</span>
+              </div>
+              <h3 class="project-title">Zomato Restaurant Data Analysis</h3>
+              <p class="project-desc">
+                In-depth exploratory data analysis (EDA) of restaurant industry datasets to uncover consumer dining behavior, 
+                average spending patterns, top-rated cuisines, and geographical market saturation.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Identified correlations between online ordering availability and higher average ratings.</span>
+                </div>
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Created distribution plots, heatmaps, and price-tier segmentations using Seaborn & Matplotlib.</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+                <span class="tech-tag">Jupyter</span>
+                <span class="tech-tag">EDA</span>
+              </div>
+              <div class="project-card-footer">
+                <button class="btn btn-outline btn-sm view-details-btn" data-project="zomato">
+                  <span>View Details</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                </button>
+                <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>GitHub Code</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Task Manager Clone -->
+          <article class="project-card" data-category="web">
+            <div class="project-card-banner banner-web">
+              <div class="banner-badge">Python & Web App</div>
+              <div class="project-icon-overlay">📝</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category">Full Stack • Productivity</span>
+                <span class="project-year">Python</span>
+              </div>
+              <h3 class="project-title">Python Task Manager Clone</h3>
+              <p class="project-desc">
+                A robust task and productivity management application developed with Python, featuring task prioritization, 
+                categorization, deadline tracking, status lifecycle, and persistent local storage.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Implemented structured data storage with validation for fast CRUD operations.</span>
+                </div>
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Built clean user workflows with status toggles (Pending, In-Progress, Completed).</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">DBMS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">HTML5</span>
+              </div>
+              <div class="project-card-footer">
+                <button class="btn btn-outline btn-sm view-details-btn" data-project="taskmanager">
+                  <span>View Details</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                </button>
+                <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>GitHub Code</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: SQL Database & Business Analytics -->
+          <article class="project-card" data-category="data">
+            <div class="project-card-banner banner-dbms">
+              <div class="banner-badge">Database & SQL</div>
+              <div class="project-icon-overlay">🗄️</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category">DBMS • SQL Analytics</span>
+                <span class="project-year">SQL & DBMS</span>
+              </div>
+              <h3 class="project-title">Business Analytics & DBMS Query Engine</h3>
+              <p class="project-desc">
+                Relational schema design and optimized analytical SQL queries engineered to calculate complex business metrics, 
+                cohort retention, revenue aggregation, and customer purchasing frequencies.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Engineered normalized schemas (3NF) ensuring referential integrity across multi-table relations.</span>
+                </div>
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Authored advanced SQL queries utilizing CTEs, Window Functions, and Aggregate Joins.</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">DBMS</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Relational Modeling</span>
+                <span class="tech-tag">Optimization</span>
+              </div>
+              <div class="project-card-footer">
+                <button class="btn btn-outline btn-sm view-details-btn" data-project="sqlanalytics">
+                  <span>View Details</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                </button>
+                <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>GitHub Code</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Interactive React & Next.js Web App -->
+          <article class="project-card" data-category="web">
+            <div class="project-card-banner banner-react">
+              <div class="banner-badge">Modern Web Application</div>
+              <div class="project-icon-overlay">⚛️</div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta">
+                <span class="project-category">Frontend • Modern Web</span>
+                <span class="project-year">React / Next.js</span>
+              </div>
+              <h3 class="project-title">Dynamic Data Explorer & Interactive UI</h3>
+              <p class="project-desc">
+                Responsive frontend application built with React, Next.js, and TypeScript delivering real-time interactive 
+                data filtering, animated components, and accessible user experiences.
+              </p>
+              <div class="project-highlights">
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Designed fluid responsive layouts with custom light/dark theme persistence.</span>
+                </div>
+                <div class="highlight-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Implemented modular component architecture with TypeScript strict typing.</span>
+                </div>
+              </div>
+              <div class="project-tech-tags">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Tailwind / CSS</span>
+              </div>
+              <div class="project-card-footer">
+                <button class="btn btn-outline btn-sm view-details-btn" data-project="dataexplorer">
+                  <span>View Details</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                </button>
+                <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <span>GitHub Code</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Live Data Mini-Demo Widget -->
+    <section class="section" id="data-demo">
+      <div class="container">
+        <div class="demo-card">
+          <div class="demo-card-header">
+            <div>
+              <span class="demo-tag">Interactive Analytics Widget</span>
+              <h3 class="demo-title">Data Analysis Simulator</h3>
+              <p class="demo-subtitle">Simulate real-time restaurant performance metrics from the Zomato EDA findings.</p>
+            </div>
+            <div class="demo-controls">
+              <label for="cuisine-select" class="control-label">Filter Cuisine:</label>
+              <select id="cuisine-select" class="demo-select">
+                <option value="all">All Cuisines (Combined)</option>
+                <option value="north-indian">North Indian & Mughlai</option>
+                <option value="chinese">Asian & Chinese</option>
+                <option value="cafes">Bakery & Cafes</option>
+                <option value="fast-food">Street Food & Fast Food</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="demo-results-grid">
+            <div class="demo-stat">
+              <span class="stat-num" id="stat-orders">14,250</span>
+              <span class="stat-label">Total Sampled Orders</span>
+            </div>
+            <div class="demo-stat">
+              <span class="stat-num" id="stat-rating">4.2 / 5.0</span>
+              <span class="stat-label">Average Customer Rating</span>
+            </div>
+            <div class="demo-stat">
+              <span class="stat-num" id="stat-cost">₹450</span>
+              <span class="stat-label">Average Order Value</span>
+            </div>
+            <div class="demo-stat">
+              <span class="stat-num" id="stat-satisfaction">89.4%</span>
+              <span class="stat-label">Positive Sentiment</span>
+            </div>
+          </div>
+
+          <div class="demo-visual-bar">
+            <div class="visual-label-row">
+              <span>Rating Distribution (High / Moderate / Low)</span>
+              <span id="stat-distribution">72% High • 21% Mid • 7% Low</span>
+            </div>
+            <div class="progress-segmented">
+              <div class="seg-fill seg-high" id="seg-high" style="width: 72%;"></div>
+              <div class="seg-fill seg-mid" id="seg-mid" style="width: 21%;"></div>
+              <div class="seg-fill seg-low" id="seg-low" style="width: 7%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section alt-bg" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Get in Touch</p>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            I am actively seeking <strong>internship opportunities</strong> in Data Analysis, Data Science, and Software Development. 
+            Feel free to reach out via email, phone, or the contact form below.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-cards-column">
+            <!-- Email Card -->
+            <div class="contact-method-card">
+              <div class="contact-method-icon">✉️</div>
+              <div class="contact-method-info">
+                <h4>Email Address</h4>
+                <p class="contact-detail" id="email-text">minalbhosale23@gmail.com</p>
+                <div class="action-btn-row">
+                  <a href="mailto:minalbhosale23@gmail.com" class="btn btn-sm btn-primary">Open Mail</a>
+                  <button class="btn btn-sm btn-outline copy-btn" id="copy-email-btn" data-target="minalbhosale23@gmail.com">
+                    <span>Copy Email</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-method-card">
+              <div class="contact-method-icon">📞</div>
+              <div class="contact-method-info">
+                <h4>Phone / Mobile</h4>
+                <p class="contact-detail" id="phone-text">+91 98766 54312</p>
+                <div class="action-btn-row">
+                  <a href="tel:9876654312" class="btn btn-sm btn-primary">Call Now</a>
+                  <button class="btn btn-sm btn-outline copy-btn" id="copy-phone-btn" data-target="9876654312">
+                    <span>Copy Phone</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-method-card">
+              <div class="contact-method-icon">🐙</div>
+              <div class="contact-method-info">
+                <h4>GitHub Profile</h4>
+                <p class="contact-detail">github.com/minalbhosale5282-coder</p>
+                <div class="action-btn-row">
+                  <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                    <span>View Repositories</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-method-card">
+              <div class="contact-method-icon">📍</div>
+              <div class="contact-method-info">
+                <h4>Location & Mobility</h4>
+                <p class="contact-detail">Nashik, Maharashtra, India</p>
+                <span class="contact-subdetail">Open for Remote & On-Site Internships</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-column">
+            <div class="form-container">
+              <h3 class="form-heading">Send a Quick Message</h3>
+              <p class="form-subheading">Interested in discussing an internship or project? Drop a message here.</p>
+              
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="form-name">Your Name</label>
+                  <input type="text" id="form-name" name="name" placeholder="e.g. John Doe / Hiring Manager" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-email">Your Email Address</label>
+                  <input type="email" id="form-email" name="email" placeholder="e.g. manager@company.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subject">Subject</label>
+                  <input type="text" id="form-subject" name="subject" placeholder="Internship Opportunity / Project Inquiry" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-message">Message</label>
+                  <textarea id="form-message" name="message" rows="4" placeholder="Hello Minal, we would like to discuss an opportunity..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-btn">
+                  <span>Send Message</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+              <div class="form-status" id="form-status" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-backdrop" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modal-close" aria-label="Close dialog">&times;</button>
+      <div class="modal-content" id="modal-content">
+        <!-- Content injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Minal Sachin Patil</span>
+          <p class="footer-tagline">Aspiring Data Analyst & B.Tech 2nd Year Student</p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com/minalbhosale5282-coder" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href="mailto:minalbhosale23@gmail.com" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+          <a href="tel:9876654312" aria-label="Phone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Minal Sachin Patil. All rights reserved.</p>
+        <p class="footer-made-with">Crafted with modern HTML5, CSS3 & JavaScript • Light Purple Edition</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
